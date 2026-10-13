@@ -42,9 +42,9 @@
 
         <Label fx:id="lblPorcentajeClientes" text="0%" />
         <HBox>
-            <Button fx:id="btnDetenerClientes" disable="true" onAction="#detenerProceso" text="Detener" />
+            <Button fx:id="btnDetenerClientes" disable="true" onAction="#detenerProcesoCliente" text="Detener" />
 
-            <Button fx:id="btnReiniciarClientes" onAction="#reiniciarProceso" text="Reiniciar" />
+            <Button fx:id="btnReiniciarClientes" onAction="#reiniciarProcesoCliente" text="Reiniciar" />
 
             <Button fx:id="btnBloquearClientes" onAction="#procesoBloqueante" text="Bloquear" />
         </HBox>
@@ -57,9 +57,9 @@
 
         <Label fx:id="lblPorcentajeProductos" text="0%" />
         <HBox>
-            <Button fx:id="btnDetenerProductos" disable="true" onAction="#detenerProceso" text="Detener" />
+            <Button fx:id="btnDetenerProductos" disable="true" onAction="#detenerProcesoProductos" text="Detener" />
 
-            <Button fx:id="btnReiniciarProductos" onAction="#reiniciarProceso" text="Reiniciar" />
+            <Button fx:id="btnReiniciarProductos" onAction="#reiniciarProcesoProducto" text="Reiniciar" />
 
             <Button fx:id="btnBloquearProductos" onAction="#procesoBloqueante" text="Bloquear" />
         </HBox>
@@ -69,7 +69,7 @@
         </padding>
 
         <HBox>
-            <Button fx:id="btnIniciarBoth" onAction="#iniciarProceso" text="Iniciar" />
+            <Button fx:id="btnIniciarBoth" onAction="#iniciarAmbos" text="Iniciar" />
 
         </HBox>
 
